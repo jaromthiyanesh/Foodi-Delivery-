@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+header{
+  z-index: 10001 !important;
+}
+.subtitle{
+  @apply:orange500font-medium uppercase text-xl tracking-wide
+}
+.title{
+  @apply:text-4xl md:text-5xl font-bold my-2 md:leading-snug leading-snug
+}
